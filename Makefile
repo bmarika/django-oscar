@@ -13,7 +13,7 @@ help: ## Display this help message
 ##################
 # Install commands
 ##################
-install: install-python install-test assets ## Install requirements for local development and production
+install: install-python install-test  ## Install requirements for local development and production
 
 install-python: ## Install python requirements
 	pip install -r requirements.txt
