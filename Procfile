@@ -1,3 +1,3 @@
 release: make sandbox
 
-web: gunicorn sandbox.wsgi
+web: cd sandbox && gunicorn wsgi
