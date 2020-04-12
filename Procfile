@@ -1,3 +1,3 @@
 release: make sandbox
 
-web: cd sandbox && gunicorn wsgi
+web: cd sandbox && python manage.py runserver &
